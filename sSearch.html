@@ -8,9 +8,6 @@
 <body>
 <style type="text/css" media="screen">
 .blue{color:blue;text-decoration:underline;cursor:pointer;}
-
-/* Put your CSS styling here */
-
 </style>
 
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -139,7 +136,7 @@ function chartLoad(idno)
 		
 		$("#Charts").html("");
 	  	$("#Charts").append("<h1>CHARTS</h1>");
-	//var addr='http://test.hiskenya.org/api/charts/'+idno+'.json';
+	
 	
       $.get('../../../api/charts/query/'+'.json', function(json) 
 	                    {
